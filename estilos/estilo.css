@@ -1,0 +1,587 @@
+@import 'font-awesome.min.css';
+.ind{
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondo3.png) center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.log{
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/tecnuzu_login.jpg) center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.cam,
+.adm,
+.dom,
+.per,
+.reg{
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/tecnuzu_registro.png) center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.login {
+  border-radius: 5px;
+  width: 320px;
+  height: 420px;
+  background: #1f1f1fcf;
+  color: #ff9800;
+  top: 250px;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.registro {
+  border-radius: 5px;
+  width: 320px;
+  background: #1f1f1fcf;
+  color: #ff9800;
+  top: 200px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.perfil {
+  border-radius: 5px;
+  width: 320px;
+  background: #1f1f1fcf;
+  color: #ff9800;
+  top: 200px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.domicilio {
+  border-radius: 5px;
+  width: 320px;
+  background: #1f1f1fcf;
+  color: #ff9800;
+  top: 200px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.cambiar {
+  border-radius: 5px;
+  width: 320px;
+  background: #1f1f1fcf;
+  color: #ff9800;
+  top: 200px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.administrar {
+  border-radius: 5px;
+  background: #1f1f1fcf;
+  color: #ff9800;
+  top: 200px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.cambiar .logo,
+.administrar .logo,
+.domicilio .logo,
+.perfil .logo,
+.login .logo,
+.registro .logo {
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.cambiar h1,
+.administrar h1,
+.domicilio h1,
+.perfil h1,
+.login h1,
+.registro h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.cambiar span,
+.administrar span,
+.domicilio span,
+.perfil span,
+.login span,
+.registro span {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.cambiar input,
+.administrar input,
+.domicilio input,
+.perfil input,
+.login input,
+.registro input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cambiar input.text,
+.cambiar input.password,
+.administrar input.text,
+.administrar input.password,
+.domicilio input.text,
+.domicilio input.password,
+.perfil input.text,
+.perfil input.password,
+.login input.text,
+.login input.password,
+.registro input.text,
+.registro input.password {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.cambiar input.submit,
+.administrar input.submit,
+.domicilio input.submit,
+.perfil input.submit,
+.login input.submit,
+.registro input.submit{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f9a;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.cambiar input.submit:hover,
+.administrar input.submit:hover,
+.domicilio input.submit:hover,
+.perfil input.submit:hover,
+.login input.submit:hover,
+.registro input.submit:hover {
+  cursor: pointer;
+  background:  #ff9800;
+  color: #000;
+}
+
+.cambiar a,
+.domicilio a,
+.perfil a,
+.login a,
+.registro a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.administrar a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+
+.cambiar a:hover,
+.administrar a:hover,
+.domicilio a:hover,
+.perfil a:hover,
+.login a:hover,
+.registro a:hover {
+  color: #ff9800;
+}
+/*Estilo para botones*/
+.boton-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #1e3134;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+.boton-link:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+  .boton-link2{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #ffbf00;
+    border-radius: 6px;
+    border: 2px solid #768492;
+    color: #586971;
+  }
+.boton-link2:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+  select {
+     background: ;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 200px;
+  }
+
+  /*=========================================================
+  02 -> HEADER
+===========================================================*/
+
+/*----------------------------*\
+  Top header
+\*----------------------------*/
+
+#top-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0489B1;
+}
+
+.header-links li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+}
+
+.header-links li:last-child {
+  margin-right: 0px;
+}
+
+.header-links li a {
+  color: #FFF;
+}
+
+.header-links li a:hover {
+  color: #D10024;
+}
+
+.header-links li i {
+  color: #D10024;
+  margin-right: 15px;
+}
+
+/*----------------------------*\
+  Logo
+\*----------------------------*/
+
+#header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1C1C1C;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo .logo img {
+  display: block;
+}
+
+/*----------------------------*\
+  Search
+\*----------------------------*/
+
+.header-search {
+  padding: 15px 0px;
+}
+
+.header-search form {
+  position: relative;
+}
+
+.header-search form .input-select {
+  margin-right: -4px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+
+.header-search form .search-btn {
+  height: 40px;
+  width: 100px;
+  background: #04B404;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+}
+
+/*----------------------------*\
+  Cart
+\*----------------------------*/
+
+.header-ctn {
+  float: right;
+  padding: 15px 0px;
+}
+
+.header-ctn>div {
+  display: inline-block;
+}
+
+.header-ctn>div+div {
+  margin-left: 15px;
+}
+
+.header-ctn>div>a {
+  display: block;
+  position: relative;
+  width: 90px;
+  text-align: center;
+  color: #FFF;
+}
+
+.header-ctn>div>a>i {
+  display: block;
+  font-size: 20px;
+}
+
+.header-ctn>div>a>span {
+  font-size: 12px;
+}
+
+.header-ctn>div>a>.qty {
+  position: absolute;
+  right: 15px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #FFF;
+  background-color: #FFBF00;
+}
+
+.header-ctn .menu-toggle {
+  display: none;
+}
+
+.cart-dropdown {
+  position: absolute;
+  width: 300px;
+  background: #FFF;
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 0px 2px #E4E7ED;
+  box-shadow: 0px 0px 0px 2px #E4E7ED;
+  z-index: 99;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdown.open>.cart-dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cart-dropdown .cart-list {
+  max-height: 180px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
+.cart-dropdown .cart-list .product-widget {
+  padding: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.cart-dropdown .cart-list .product-widget:last-child {
+  margin-bottom: 0px;
+}
+
+.cart-dropdown .cart-list .product-widget .product-img {
+  left: 0px;
+  top: 0px;
+}
+
+.cart-dropdown .cart-list .product-widget .product-body .product-price {
+  color: #2B2D42;
+}
+
+.cart-dropdown .cart-btns {
+  margin: 0px -17px -17px;
+}
+
+.cart-dropdown .cart-btns>a {
+  display: inline-block;
+  width: calc(50% - 0px);
+  padding: 12px;
+  background-color: #FFBF00;
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.cart-dropdown .cart-btns>a:first-child {
+  margin-right: -4px;
+  background-color: #1e1f29;
+}
+
+.cart-dropdown .cart-btns>a:hover {
+  opacity: 0.9;
+}
+
+.cart-dropdown .cart-summary {
+  border-top: 1px solid #E4E7ED;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+/*=========================================================
+  11 -> FOOTER
+===========================================================*/
+
+#footer {
+  background: #15161D;
+  color: #B9BABC;
+}
+
+#bottom-footer {
+  background: #1E1F29;
+}
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer .footer-title {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px 0px 30px;
+}
+
+.footer-links li+li {
+  margin-top: 15px;
+}
+
+.footer-links li a {
+  color: #B9BABC;
+}
+
+.footer-links li i {
+  margin-right: 15px;
+  color: #D10024;
+  width: 14px;
+  text-align: center;
+}
+
+.footer-links li a:hover {
+  color: #D10024;
+}
+
+.copyright {
+  margin-top: 30px;
+  display: block;
+  font-size: 12px;
+}
+
+.footer-payments li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer-payments li a {
+  color: #15161D;
+  font-size: 36px;
+  display: block;
+}
+
+
+/*
+Adicionales
+*/
+
+.listado{
+  background-color: #ffffffdb;
+}
+
+.titulo{
+  font-size: 30px;
+}
+
+.contenido{
+  font-size: 20px;
+}
+
+/*
+Chat
+*/
+.left{
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #67fc67;
+  width: 40%;
+  border-radius: 20px;
+}
+.right{
+  text-align: right;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #b4b1a0;
+  width: 40%;
+  border-radius: 20px;
+}
+.mensaje{
+ font-style:bold; 
+ font-weight: bold;
+}
+.fecha{
+  font-size: 15px;
+}
+
+.efecto:hover {​​​​
+transition:all 1s ease-in-out;
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}​​​​
